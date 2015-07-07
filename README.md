@@ -24,7 +24,7 @@ changes.
 Start the app using `npm start`, which will run the server per default on the 
 port 1337. You can change that, by either changing the config.js module or
 creating a YAML config file called config.yml in the root directory  with the
-folling format:
+following format:
 
 ````
 port: 1337
