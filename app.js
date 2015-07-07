@@ -2,7 +2,7 @@ import express from 'express';
 import bodyParser from 'body-parser';
 import handlebars from 'express-handlebars';
 
-import middleware from './source/middleware';
+import middleware from './src/middleware';
 import config from './src/utils/config';
 import logger from './src/utils/logger';
 
@@ -12,7 +12,7 @@ app.set('view engine', '.hbs');
 app.use(bodyParser.json());
 app.use(express.static(__dirname + '/public'));
 
-require('./source/api')(app);
+require('./src/controller')(app);
 app.use(middleware.errors());
 
 app.listen(config.port, function () {
