@@ -1,0 +1,26 @@
+{
+  "name": "ReactiveBoilerplate",
+  "version": "0.0.1",
+  "homepage": "https://github.com/sepal/ReactiveBoilerplate",
+  "authors": [
+    "Sebastian Gilits <sep.gil@gmail.com>"
+  ],
+  "description": "React and RxJS boilerplate using handlebars and sass.",
+  "main": "app.js",
+  "private": true,
+  "license": "GPLv2",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/sass/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "inuit-normalize": "~3.0.3",
+    "inuit-reset": "~0.1.1",
+    "inuit-box-sizing": "~0.2.0",
+    "font-awesome": "~4.3.0"
+  }
+}
